@@ -1,6 +1,27 @@
 [package]
-name = "Oxide"
+name = "oxide"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A programming language implementation with lexer and parser"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/oxide"
+keywords = ["programming-language", "parser", "lexer", "compiler"]
+categories = ["compilers", "parser-implementations"]
+
+[lib]
+name = "oxide"
+path = "src/lib.rs"
+
+[[example]]
+name = "parser_demo"
+path = "examples/parser_demo.rs"
 
 [dependencies]
+
+[dev-dependencies]
+
+[[bin]]
+name = "oxide-repl"
+path = "src/bin/repl.rs"
+required-features = []
