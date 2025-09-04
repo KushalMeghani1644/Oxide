@@ -2,16 +2,31 @@
 name = "oxide"
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["KushalMeghani1644 kushalmeghani108@gmail.com"]
 description = "A programming language implementation with lexer and parser"
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/yourusername/oxide"
+license = "GPL-3.0-or-later"
+[package]
+name = "oxide"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kushal Meghani <kushalmeghani108@gmail.com>"]
+description = "Oxide — an experimental programming language written in Rust. Includes a lexer, parser, and REPL. Early-stage project."
+license = "GPL-3.0-or-later"
+repository = "https://github.com/KushalMeghani1644/Oxide"
+readme = "README.md"
 keywords = ["programming-language", "parser", "lexer", "compiler"]
 categories = ["compilers", "parser-implementations"]
+documentation = "https://docs.rs/oxide"
+homepage = "https://github.com/KushalMeghani1644/Oxide"
 
 [lib]
 name = "oxide"
 path = "src/lib.rs"
+
+[[bin]]
+name = "oxide-repl"
+path = "src/bin/repl.rs"
+required-features = []
 
 [[example]]
 name = "parser_demo"
@@ -21,7 +36,3 @@ path = "examples/parser_demo.rs"
 
 [dev-dependencies]
 
-[[bin]]
-name = "oxide-repl"
-path = "src/bin/repl.rs"
-required-features = []
