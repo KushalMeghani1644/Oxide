@@ -2,13 +2,6 @@
 name = "oxide"
 version = "0.1.0"
 edition = "2021"
-authors = ["KushalMeghani1644 kushalmeghani108@gmail.com"]
-description = "A programming language implementation with lexer and parser"
-license = "GPL-3.0-or-later"
-[package]
-name = "oxide"
-version = "0.1.0"
-edition = "2021"
 authors = ["Kushal Meghani <kushalmeghani108@gmail.com>"]
 description = "Oxide — an experimental programming language written in Rust. Includes a lexer, parser, and REPL. Early-stage project."
 license = "GPL-3.0-or-later"
