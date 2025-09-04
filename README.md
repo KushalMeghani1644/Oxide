@@ -264,3 +264,12 @@ This project is LICENSED under the GPLv3 license, you can check at [LICENSE](LIC
 - [ ] Code generation/interpretation
 - [ ] Standard library
 - [ ] Module system
+
+# InstalL:
+``` 
+{
+ cargo install oxide-lang
+}
+```
+
+# Built with ❤️ in Rust
