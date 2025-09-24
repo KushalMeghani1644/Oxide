@@ -2,8 +2,6 @@
 
 A modern programming language implementation in Rust, featuring a complete lexer and recursive descent parser.
 
-# NOTE: Oxide is a unregistered TRADEMARK of Kushal Meghani under the Rusty-Suite.
-
 ## Overview
 
 Oxide is a simple programming language that supports:
